@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cheat Box Pro Max Installer</title>
+
+  <script type="module" src="https://unpkg.com/esp-web-tools@9/dist/web/install-button.js?module"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #94a3b8;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 16px;
+      display: inline-block;
+      box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    }
+
+    button {
+      background: #22c55e;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      color: black;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #16a34a;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    .footer a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .steps {
+      text-align: left;
+      margin-top: 20px;
+      color: #cbd5f5;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <div class="card">
+    <h1>⚡ Cheat Box Pro Max</h1>
+    <p>One-click firmware installer for ESP32-S3</p>
+
+    <esp-web-install-button manifest="manifest.json">
+      <button slot="activate">🚀 Flash Firmware</button>
+    </esp-web-install-button>
+
+    <div class="steps">
+      <h3>📌 Instructions:</h3>
+      <ol>
+        <li>Connect ESP32-S3 via USB</li>
+        <li>Use Chrome browser</li>
+        <li>Click "Flash Firmware"</li>
+        <li>If not detected, hold BOOT button</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Follow my projects:</p>
+    <a href="https://www.instagram.com/un_knownengineer/" target="_blank">Instagram</a> |
+    <a href="https://github.com/Screen-sLaYeR" target="_blank">GitHub</a> |
+    <a href="https://www.youtube.com/channel/UCZY7nlVlLNcErflaa3IFR5g" target="_blank">YouTube</a>
+  </div>
+
+</body>
+</html>

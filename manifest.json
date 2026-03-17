@@ -1,0 +1,11 @@
+{
+  "name": "Cheat Box Pro Max",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "Cheat_Box_Pro_Max.ino.merged.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
